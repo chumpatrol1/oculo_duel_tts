@@ -1,0 +1,39 @@
+LINK = DUEL.xlsx!Bases
+
+FONT = Arial, 16, , #000000
+TEXT = , "[base]", -2%, 0, 100%, 20%, CENTER
+
+;FONT = Arial, 16, , #000000
+;TEXT = 73-74, [modifier], 0, 0, 100%, 20%
+
+IMAGE = , Initiative.png, 0.5, 15%, 10%, 10%, 0, PN
+IMAGE = , Resistance.png, 0.5, 23%, 10%, 10%, 0, PN
+IMAGE = , Range.png, 0.5, 31%, 10%, 10%, 0, PN
+IMAGE = , Strength.png, 0.5, 39%, 10%, 10%, 0, PN
+
+FONT = Arial, 12, , #000000
+TEXT = , "[initiative]", 20%, 15%, 15%, 10%, left
+TEXT = , "[resistance]", 20%, 23%, 15%, 10%, left
+TEXT = , "[range]", 20%, 31%, 15%, 10%, left
+TEXT = , "[strength]", 20%, 39%, 15%, 10%, left
+
+FONT = Arial, 14, , #000000
+TEXT = , "[set] Base", -10%, 88%, 100%, 10%, right
+
+;Special character encoding
+htmlfont=trait_font,arial,12,,#000000, CENTER
+htmlimage=,(i),"Initiative.png",0.25,0.25,P
+htmlimage=,(g),"Resistance.png",0.25,0.25,P
+htmlimage=,(r),"Range.png",0.25,0.25,P
+htmlimage=,(s),"Strength.png",0.25,0.25,P
+htmlimage=,(d),"Determination.png",0.25,0.25,P
+; Card Traits
+HTMLTEXT = , "[traits]", 0%, 4.5, 92%, 45%, #ffffff, 0, BE, 255, trait_font
+
+; Border
+rectangle=,0%,0%,100%,3%,#000000
+rectangle=,95%,0%,5%,100%,#000000
+rectangle=,0%,97%,100%,3%,#000000
+
+;display=deck1.png, 1,70,10, "1-69", #000000
+;display=deck2.png, 70,139,10

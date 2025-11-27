@@ -1,0 +1,25 @@
+LINK = DUEL.xlsx!Passives
+
+cardsize = 9, 6
+page=29.7,21 LANDSCAPE
+
+;Hero Name
+FONT = Arial, 16, , #000000
+TEXT = , "[Hero]", -2%, 0, 100%, 20%, CENTER
+
+;Hero Color
+FONT = Arial, 14, , #000000
+TEXT = , "[color]", -10%, 80%, 100%, 20%, right
+
+;Special character encoding
+OVERSAMPLE=2
+htmlfont=trait_font,arial,12,,#000000, CENTER
+htmlimage=,(i),"Initiative.png",5%,5%,P
+htmlimage=,(g),"Resistance.png",5%,5%,P
+htmlimage=,(r),"Range.png",5%,5%,P
+htmlimage=,(s),"Strength.png",5%,5%,P
+htmlimage=,(d),"Determination.png",5%,5%,P
+
+;Passive
+HTMLTEXT = , "[passive ability]", 0%, 20%, 92%, 100%, #ffffff, 0, BE, 255, trait_font
+HTMLTEXT = , "[traits]", 0%, 30%, 92%, 100%, #ffffff, 0, BE, 255, trait_font

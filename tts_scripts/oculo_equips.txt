@@ -1,0 +1,24 @@
+LINK = DUEL.xlsx!Equips
+
+cardsize = 9, 3
+page=21,29.7 LANDSCAPE
+
+;Equip Title
+FONT = Arial, 16, , #000000
+TEXT = , "[equip]", -2%, 0, 100%, 20%, CENTER
+
+;Equip Synergy
+FONT = Arial, 14, , #000000
+TEXT = , "[synergy]", -10%, 80%, 100%, 20%, right
+
+;Special character encoding
+OVERSAMPLE=2
+htmlfont=trait_font,arial,12,,#000000, CENTER
+htmlimage=,(i),"Initiative.png",5%,5%,P
+htmlimage=,(g),"Resistance.png",5%,5%,P
+htmlimage=,(r),"Range.png",5%,5%,P
+htmlimage=,(s),"Strength.png",5%,5%,P
+htmlimage=,(d),"Determination.png",5%,5%,P
+
+;Equip Text
+HTMLTEXT = , "[effect]", 0%, 20%, 92%, 100%, #ffffff, 0, BE, 255, trait_font
