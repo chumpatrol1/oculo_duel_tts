@@ -37,3 +37,5 @@ rectangle=,0%,97%,100%,3%,#000000
 
 ;display=deck1.png, 1,70,10, "1-69", #000000
 ;display=deck2.png, 70,139,10
+
+DISPLAY = "oculo_supers.png"

@@ -23,3 +23,5 @@ htmlimage=,(d),"Determination.png",5%,5%,P
 ;Passive
 HTMLTEXT = , "[passive ability]", 0%, 20%, 92%, 100%, #ffffff, 0, BE, 255, trait_font
 HTMLTEXT = , "[traits]", 0%, 30%, 92%, 100%, #ffffff, 0, BE, 255, trait_font
+
+DISPLAY = "oculo_passives.png"
